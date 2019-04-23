@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3434155708860292500}
   - component: {fileID: 3434155708860292501}
   - component: {fileID: 3434155708860292498}
-  - component: {fileID: 425996911617539745}
+  - component: {fileID: 6909136586440996271}
   m_Layer: 0
   m_Name: hit2
   m_TagString: Hit
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3434155708860292496}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 2.1, z: -2.29}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -206,7 +206,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &425996911617539745
+--- !u!114 &6909136586440996271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,6 +215,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3434155708860292496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b44f0eec88194ab28dfe0f539d9c21d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a061c2c944f94d0eb33602bf52f76ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

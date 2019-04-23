@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\copyPos.cs" />
     <Compile Include="Assets\Scripts\DrumManager.cs" />
     <Compile Include="Assets\Scripts\listenerSpectrum.cs" />
+    <Compile Include="Assets\Scripts\marimbaHit.cs" />
     <Compile Include="Assets\Scripts\MarimbaManager.cs" />
     <Compile Include="Assets\Scripts\me.cs" />
     <Compile Include="Assets\Scripts\playOnClick.cs" />
