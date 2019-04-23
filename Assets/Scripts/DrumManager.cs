@@ -14,9 +14,9 @@ public class DrumManager : MonoBehaviour
         GameObject hitParent = GameObject.CreatePrimitive(PrimitiveType.Cube);
         hitParent.GetComponent<MeshRenderer>().enabled = false;
         hitParent.transform.position = new Vector3(0, 0, 0);
-        for (y = 0; y < 15; y += 1f)
+        for (y = 0; y < 15; y += 0.5f)
         {
-            for (x = 0; x < 15; x+= 1f)
+            for (x = 0; x < 15; x+= 0.5f)
             {
                 Instantiate(hit, new Vector3(x, y, 0), Quaternion.identity);
                 AudioSource hitAudio = hit.GetComponent<AudioSource>();
@@ -32,3 +32,4 @@ public class DrumManager : MonoBehaviour
   
 
 }
+    

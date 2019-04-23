@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: fd21fe96b3c5145e1bacaf8d0710a2a0, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 30edcd331bd8547708a49cf49c0e6cf0, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5078496, g: 0.66455406, b: 0.1605888, a: 1}
+  m_IndirectSpecularColor: {r: 0.7126969, g: 0.7656915, b: 0.84471524, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2185,6 +2185,53 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3434155709754861001}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1458254264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1458254266}
+  - component: {fileID: 1458254265}
+  m_Layer: 0
+  m_Name: MarimbaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1458254265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458254264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014ab916effee46feb75a8e66b38da0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hit2: {fileID: 3434155708860292496, guid: 54e602f006231470f86ca63c5fd8c6ae, type: 3}
+  amount: 10
+  cubes: []
+  positions: []
+--- !u!4 &1458254266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458254264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.1900206, y: 2.1831708, z: -11.897972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551707614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2721,7 +2768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1967768419
 MonoBehaviour:
   m_ObjectHideFlags: 0
