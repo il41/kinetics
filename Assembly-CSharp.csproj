@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\me.cs" />
     <Compile Include="Assets\Scripts\playOnClick.cs" />
     <Compile Include="Assets\Scripts\playTriggerEnter.cs" />
+    <Compile Include="Assets\Scripts\RotationManager.cs" />
     <Compile Include="Assets\Scripts\spectrum.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
