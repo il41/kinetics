@@ -60,9 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\KickHit.cs" />
     <Compile Include="Assets\Scripts\copyPos.cs" />
     <Compile Include="Assets\Scripts\DrumManager.cs" />
     <Compile Include="Assets\Scripts\listenerSpectrum.cs" />
+    <Compile Include="Assets\Scripts\loadNewKick.cs" />
     <Compile Include="Assets\Scripts\marimbaHit.cs" />
     <Compile Include="Assets\Scripts\MarimbaManager.cs" />
     <Compile Include="Assets\Scripts\me.cs" />

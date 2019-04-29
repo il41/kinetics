@@ -6,10 +6,17 @@
 
     public class ControllableReactor : MonoBehaviour
     {
+        public GameObject rotationMan;
         public VRTK_BaseControllable controllable;
         public Text displayText;
         public string outputOnMax = "Maximum Reached";
         public string outputOnMin = "Minimum Reached";
+        public float sliderVal;
+
+        private void Awake()
+        {
+            rotationMan = GameObject.Find("RotationManager");
+    }
 
         protected virtual void OnEnable()
         {
@@ -25,6 +32,9 @@
             {
                 displayText.text = e.value.ToString("F1");
             }
+            sliderVal = e.value;
+            rotationMan.GetComponent<RotationManager>().sliderInput(sliderVal);
+
         }
 
         protected virtual void MaxLimitReached(object sender, ControllableEventArgs e)

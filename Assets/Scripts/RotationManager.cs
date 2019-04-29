@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class RotationManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    float speed;
+    Animator anim;
+    private void Start()
     {
-        
+        anim = GetComponent<Animator>();
+    }
+    public void sliderInput(float value)
+    {
+        speed = value/100;
+        anim.speed = speed;
     }
 }
